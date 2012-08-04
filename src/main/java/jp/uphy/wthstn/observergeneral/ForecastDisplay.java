@@ -38,6 +38,7 @@ public class ForecastDisplay implements Display, Observer {
   public void display() {
     float temperature = this.weatherData.getTemperature();
     System.out.println("ForecastDisplay.display()");
+    System.out.println("Temperature : " + temperature);
   }
 
   /**

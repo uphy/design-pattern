@@ -20,7 +20,7 @@ package jp.uphy.dsptn.factory.abstractfactory;
  */
 public class VeggiePizza extends Pizza {
 
-  private PizzaIngredientFactory ingredientFactory;
+  PizzaIngredientFactory ingredientFactory;
 
   /**
    * {@link VeggiePizza}オブジェクトを構築します。
