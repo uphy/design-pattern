@@ -15,30 +15,20 @@
  */
 package jp.uphy.dsptn.guicesample;
 
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.*;
-
-import com.google.inject.Guice;
-import com.google.inject.Injector;
+import com.google.inject.AbstractModule;
 
 
 /**
  * @author yuhi
  */
-public class AppTest {
+public class TestCreditCardModule extends AbstractModule {
 
-  private App app;
-
-  @Before
-  public void setup() {
-    final Injector injector = Guice.createInjector(new TestCreditCardModule());
-    this.app = injector.getInstance(App.class);
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  protected void configure() {
+    bind(CreditCard.class).to(TestCreditCard.class);
   }
 
-  @Test
-  public void testByMyFavorites() {
-    this.app.buyMyFavorites();
-    assertEquals(90, ((TestCreditCard)this.app.getCreditCard()).getLeftMoney());
-  }
 }
