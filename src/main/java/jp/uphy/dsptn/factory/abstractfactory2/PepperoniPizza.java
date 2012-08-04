@@ -15,9 +15,20 @@
  */
 package jp.uphy.dsptn.factory.abstractfactory2;
 
+import com.google.inject.Inject;
+
+
 /**
  * @author yuhi
  */
 public class PepperoniPizza extends Pizza {
+
+  /**
+   * {@link PepperoniPizza}オブジェクトを構築します。
+   */
+  @Inject
+  PepperoniPizza(Pepperoni pepperoni) {
+    this.pepperoni = pepperoni;
+  }
 
 }
