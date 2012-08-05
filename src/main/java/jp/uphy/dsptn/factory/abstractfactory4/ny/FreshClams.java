@@ -19,7 +19,7 @@ import jp.uphy.dsptn.factory.abstractfactory4.Clams;
 
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 class FreshClams implements Clams {
 

@@ -16,7 +16,7 @@
 package jp.uphy.dsptn.observer;
 
 /**
- * @author Yuhi Ishikura
+ * @author Yuhi Ishikura Ishikura
  */
 public interface Subject {
 

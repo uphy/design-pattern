@@ -17,7 +17,7 @@ package jp.uphy.dsptn.factory.abstractfactory;
 
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 public interface Veggies {
 

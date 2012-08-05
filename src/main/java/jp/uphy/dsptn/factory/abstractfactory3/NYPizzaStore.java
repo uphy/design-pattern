@@ -27,7 +27,7 @@ import com.google.inject.name.Names;
  * {@link jp.uphy.dsptn.factory.abstractfactory2} との比較のために残してあります。<br>
  * Guiceを用いることで、もはやこのクラスは必要なくなっています。 {@link _Sample2_FieldInjection}を参照してください。
  * 
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 public class NYPizzaStore extends PizzaStore {
 

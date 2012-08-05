@@ -19,7 +19,7 @@ import jp.uphy.dsptn.factory.abstractfactory4.Sauce;
 
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 class MarinaraSauce implements Sauce {
 

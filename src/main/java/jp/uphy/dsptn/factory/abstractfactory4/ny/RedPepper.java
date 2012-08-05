@@ -19,7 +19,7 @@ import jp.uphy.dsptn.factory.abstractfactory4.Veggies;
 
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 class RedPepper implements Veggies {
 

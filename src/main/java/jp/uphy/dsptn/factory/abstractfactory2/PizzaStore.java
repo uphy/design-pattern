@@ -16,7 +16,7 @@
 package jp.uphy.dsptn.factory.abstractfactory2;
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 public abstract class PizzaStore {
 

@@ -19,7 +19,7 @@ import com.google.inject.Inject;
 
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 public class VeggiePizza extends Pizza {
 

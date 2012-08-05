@@ -25,7 +25,7 @@ import com.google.inject.Inject;
 
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 class ClamPizza extends Pizza {
 

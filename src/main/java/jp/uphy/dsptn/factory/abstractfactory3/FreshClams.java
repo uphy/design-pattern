@@ -17,7 +17,7 @@ package jp.uphy.dsptn.factory.abstractfactory3;
 
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 public class FreshClams implements Clams {
 

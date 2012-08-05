@@ -20,7 +20,7 @@ import java.util.List;
 
 
 /**
- * @author Yuhi Ishikura
+ * @author Yuhi Ishikura Ishikura
  */
 public class WeatherData implements Subject {
 
