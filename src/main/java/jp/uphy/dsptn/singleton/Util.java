@@ -57,9 +57,7 @@ class Util {
 
     for (int i = 0; i < times; i++) {
       executor.execute(getInstanceTask);
-      executor.execute(getInstanceTask);
     }
-
     executor.shutdown();
   }
 
