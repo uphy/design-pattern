@@ -55,7 +55,7 @@ public class ClassLoaderProblem {
    */
   private static Class<?> loadWithNewClassLoader() {
     try (URLClassLoader classLoader = new URLClassLoader(SAMPLE_JAR_URL)) {
-      return classLoader.loadClass("jp.uphy.dsptn.singleton.MySingleton");
+      return Class.forName("jp.uphy.dsptn.singleton.MySingleton", true, classLoader);
     } catch (ClassNotFoundException e) {
       throw new RuntimeException(e);
     } catch (IOException e1) {
