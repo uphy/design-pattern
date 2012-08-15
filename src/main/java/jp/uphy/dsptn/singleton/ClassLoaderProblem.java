@@ -25,6 +25,10 @@ import java.net.URLClassLoader;
 
 /**
  * 複数のクラスローダでシングルトンのクラスを読み込んだ時にインスタンスが二回生成されてしまう現象の確認。
+ * <p>
+ * 参照しているライブラリ{@code "singleton-sample.jar"}は、{@code jp.uphy.dsptn.singleton.MySingleton}クラスを含んでいる。<br>
+ * このクラスは、シングルトンパターンを純粋に実装し、static初期化子内で、{@code Instance created.}を標準出力に出力するものである。<br>
+ * 正しく動作していればその出力は一回しか行われないが、別のクラスローダで読み込んでいるため同名ではあるが完全に別のクラスとなってしまい、インスタンス生成が複数回行われてしまう。
  * 
  * @author Yuhi Ishikura
  */
