@@ -15,8 +15,8 @@
  */
 package jp.uphy.dsptn.guicesample;
 
+import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
@@ -29,6 +29,7 @@ public class AppTest {
 
   private App app;
 
+  @Before
   public void setup() {
     final Injector injector = Guice.createInjector(new CreditCardModule());
     this.app = injector.getInstance(App.class);

@@ -34,8 +34,8 @@ public class App {
    * {@link App}オブジェクトを構築します。
    */
   @Inject
-  public App(Injector injector) {
-    this.creditCard = injector.getInstance(CreditCard.class);
+  public App(CreditCard creditCard) {
+    this.creditCard = creditCard;
   }
 
   public void buyMyFavorites() {
