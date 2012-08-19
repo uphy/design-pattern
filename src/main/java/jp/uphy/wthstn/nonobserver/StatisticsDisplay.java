@@ -16,7 +16,7 @@
 package jp.uphy.wthstn.nonobserver;
 
 /**
- * @author Yuhi Ishikura
+ * @author Yuhi Ishikura Ishikura
  */
 public class StatisticsDisplay implements WeatherDisplay {
 

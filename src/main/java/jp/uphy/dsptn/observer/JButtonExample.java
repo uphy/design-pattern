@@ -25,7 +25,7 @@ import javax.swing.WindowConstants;
 
 
 /**
- * @author Yuhi Ishikura
+ * @author Yuhi Ishikura Ishikura
  */
 public class JButtonExample {
 

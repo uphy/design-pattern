@@ -17,7 +17,7 @@ package jp.uphy.dsptn.factory.abstractfactory4;
 
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 public interface Dough {
 

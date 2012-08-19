@@ -16,7 +16,7 @@
 package jp.uphy.dsptn.factory.simple;
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 public class PizzaStore {
 

@@ -19,7 +19,7 @@ import jp.uphy.dsptn.factory.abstractfactory4.Dough;
 
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 class ThinCrustDough implements Dough {
 

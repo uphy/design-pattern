@@ -20,7 +20,7 @@ import com.google.inject.Injector;
 
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 public class NYPizzaStore extends PizzaStore {
 

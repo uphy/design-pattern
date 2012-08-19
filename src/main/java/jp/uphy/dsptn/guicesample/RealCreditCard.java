@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2012 Koga Laboratory (mklab.org)
+ * Copyright (C) 2012 uphy.jp
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 package jp.uphy.dsptn.guicesample;
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 public class RealCreditCard implements CreditCard {
 

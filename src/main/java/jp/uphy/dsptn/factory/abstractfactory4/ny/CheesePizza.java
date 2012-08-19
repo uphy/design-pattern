@@ -24,7 +24,7 @@ import com.google.inject.Inject;
 
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 class CheesePizza extends Pizza {
 

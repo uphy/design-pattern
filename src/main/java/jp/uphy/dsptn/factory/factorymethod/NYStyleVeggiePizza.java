@@ -16,7 +16,7 @@
 package jp.uphy.dsptn.factory.factorymethod;
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 public class NYStyleVeggiePizza extends VeggiePizza {
 

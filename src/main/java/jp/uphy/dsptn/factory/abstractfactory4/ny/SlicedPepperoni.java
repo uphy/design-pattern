@@ -19,7 +19,7 @@ import jp.uphy.dsptn.factory.abstractfactory4.Pepperoni;
 
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 class SlicedPepperoni implements Pepperoni {
 

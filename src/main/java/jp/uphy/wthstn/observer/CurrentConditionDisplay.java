@@ -16,7 +16,7 @@
 package jp.uphy.wthstn.observer;
 
 /**
- * @author Yuhi Ishikura
+ * @author Yuhi Ishikura Ishikura
  */
 public class CurrentConditionDisplay implements WeatherDisplay, Observer {
 

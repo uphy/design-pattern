@@ -19,7 +19,7 @@ import jp.uphy.dsptn.factory.abstractfactory4.Cheese;
 
 
 /**
- * @author yuhi
+ * @author Yuhi Ishikura
  */
 class ReggianoCheese implements Cheese {
 
