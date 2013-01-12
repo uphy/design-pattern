@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     2013/01/12 22:01:09                                                        
+
+     project    
+     description
+                   
+     yuhi                                                                
+     ====================================================================== -->
+<project name="project" default="jar">
+	<description>
+            description
+    </description>
+
+	<target name="jar">
+		<jar destfile="target/RemoteProxyExample-Client.jar">
+			<fileset dir="target/classes">
+				<include name="**/remote/*" />
+			</fileset>
+			<manifest>
+				<attribute name="Main-Class" value="jp.uphy.dsptn.proxy.remote.ClientApp" />
+			</manifest>
+		</jar>
+		<jar destfile="target/RemoteProxyExample-Server.jar">
+			<fileset dir="target/classes">
+				<include name="**/remote/*" />
+			</fileset>
+			<manifest>
+				<attribute name="Main-Class" value="jp.uphy.dsptn.proxy.remote.ServerApp" />
+			</manifest>
+		</jar>
+	</target>
+
+</project>
